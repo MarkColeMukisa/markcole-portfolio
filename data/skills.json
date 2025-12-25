@@ -1,79 +1,70 @@
 {
   "skillCategories": [
     {
-      "category": "Computer",
-      "title": "Computer",
-      "description": "Basically, whatever it takes to get the job done ;). Proficient on both MAC and PC.",
-      "skills": [
-        "AI / Vibe Coding",
-        "Terminal",
-        "Figma",
-        "Adobe Creative Cloud (All)",
-        "Sketch",
-        "Apple",
-        "Microsoft"
-      ]
-    },
-    {
-      "category": "Creative",
-      "title": "Creative",
-      "skills": [
-        "Concepting",
-        "Usability & Wireframing",
-        "Interactive & Print",
-        "Logo & Identity",
-        "Typography",
-        "Icons & Information Systems",
-        "Storyboarding",
-        "Illustration",
-        "Motion",
-        "Audio Editing & Production",
-        "Some 3D"
-      ]
-    },
-    {
       "category": "Development",
       "title": "Development",
       "skillLevels": {
         "Expert": [
-          "HTML",
-          "CSS",
+          "TypeScript",
+          "PHP",
+          "Laravel",
           "JavaScript",
-          "jQuery",
-          "WordPress",
-          "Bootstrap",
-          "Sass",
-          "Less"
+          "Tailwind CSS",
+          "HTML5",
+          "CSS3",
+          "MySQL"
         ],
         "Intermediate": [
-          "Ruby",
-          "Ember",
-          "Play",
-          "Gulp",
+          "Python",
+          "React Native",
+          "jQuery",
           "Git",
           "NPM",
-          "Node",
-          "Jekyll"
+          "Node.js",
+          "API Integration"
         ],
         "Beginner": [
-          "Objective-C",
-          "Java",
-          "Angular",
-          "React"
+          "Docker",
+          "AWS",
+          "Firebase"
         ]
       }
     },
     {
-      "category": "Management",
-      "title": "Management",
+      "category": "Software Design",
+      "title": "Software Design",
       "skills": [
-        "Team Building",
-        "Leadership",
+        "System Architecture",
+        "Database Design",
+        "Full-stack Development",
+        "Mobile App Design",
+        "UI/UX Principles",
+        "Responsive Web Design",
+        "Process Automation"
+      ]
+    },
+    {
+      "category": "Tools",
+      "title": "Professional Tools",
+      "skills": [
+        "Visual Studio Code",
+        "Postman",
+        "XAMPP",
+        "Figma",
+        "GitHub",
+        "Terminal"
+      ]
+    },
+    {
+      "category": "Management",
+      "title": "Business & Management",
+      "skills": [
+        "Business Computing",
         "Problem Solving",
-        "Communication",
-        "Adaptability",
-        "Time Management",
-        "Presentation"
+        "Technical Documentation",
+        "Collaboration",
+        "Project Management",
+        "Adaptability"
       ]
     }
   ]

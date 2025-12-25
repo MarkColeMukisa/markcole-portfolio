@@ -1,0 +1,96 @@
+{
+    "id": "geta-waterbill-app",
+    "sections": {
+        "overview": {
+            "heading": "Overview",
+            "content": "Geta WaterBill is a utility management application specifically designed for landlords and property managers. It streamlines the process of tracking water consumption and generating bills for tenants."
+        },
+        "challenge": {
+            "heading": "The Challenge",
+            "intro": "The main challenge was to create a utility-focused application that is extremely simple to use yet powerful enough to manage multiple properties and billing cycles accurately.",
+            "highlightTitle": "User Needs",
+            "keyPoints": [
+                "Eliminating manual calculation errors in utility billing",
+                "Providing a clear overview of consumption across multiple properties",
+                "Generating professional PDF or digital bills for tenants",
+                "Building a mobile-friendly interface for meter readings on the go"
+            ]
+        },
+        "solution": {
+            "heading": "The Solution",
+            "intro": "I built a frontend-heavy application using Tailwind CSS for rapid styling and jQuery for handling dynamic billing calculations and UI updates.",
+            "approaches": [
+                {
+                    "title": "Utility-First Design",
+                    "description": "Used Tailwind CSS to build a clean, functional interface that prioritizes data entry and readability."
+                },
+                {
+                    "title": "Dynamic Calculations",
+                    "description": "Implemented real-time billing calculations using jQuery to provide immediate feedback during meter data entry."
+                }
+            ]
+        },
+        "process": {
+            "heading": "Process",
+            "intro": "Focused on creating a smooth data entry flow for meter readers and a clear reporting dashboard for property managers.",
+            "steps": [
+                {
+                    "number": 1,
+                    "title": "User Flow Mapping",
+                    "description": "Interviewing potential users to understand the current manual billing process and its pain points."
+                },
+                {
+                    "number": 2,
+                    "title": "UI Prototyping",
+                    "description": "Designing high-fidelity mockups focusing on numerical clarity and ease of navigation."
+                },
+                {
+                    "number": 3,
+                    "title": "Calculation Engine",
+                    "description": "Developing the core logic to handle complex tiered water billing structures."
+                }
+            ]
+        },
+        "results": {
+            "heading": "Results",
+            "intro": "Property managers using Geta WaterBill have reported significantly reduced billing times and improved accuracy.",
+            "metrics": [
+                {
+                    "value": "75%",
+                    "label": "Reduction in monthly billing administrative time",
+                    "chartProgress": 75
+                },
+                {
+                    "value": "0",
+                    "label": "Known calculation errors reported",
+                    "chartProgress": 100
+                }
+            ]
+        }
+    },
+    "sidebar": {
+        "title": "Contents",
+        "sections": [
+            {
+                "id": "overview",
+                "label": "Overview"
+            },
+            {
+                "id": "challenge",
+                "label": "The Challenge"
+            },
+            {
+                "id": "solution",
+                "label": "Solution"
+            },
+            {
+                "id": "process",
+                "label": "Process"
+            },
+            {
+                "id": "results",
+                "label": "Results"
+            }
+        ]
+    }
+}

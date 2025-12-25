@@ -1,37 +1,37 @@
 {
-  "name": "Jerimy Brown",
-  "jobTitle": "UX Director, Designer and Developer",
-  "description": "Creating design experiences that connect, inspire, and empower users through thoughtful UX direction, design, and development.",
-  "email": "jerimy@comcast.net",
-  "phone": "720.299.4940",
+  "name": "Mark Cole Mukisa",
+  "jobTitle": "Web Developer | Software Engineer | Mobile App Developer",
+  "description": "Building responsive websites, intuitive mobile applications, and robust software systems that transform ideas into impactful digital experiences.",
+  "email": "mcole.mukisa@gmail.com",
+  "phone": "+256 7022 62806",
   "location": {
-    "address": "4126 Fern Ave",
-    "city": "Broomfield",
-    "state": "CO",
-    "zip": "80020",
-    "country": "USA"
+    "address": "Kira Municipality",
+    "city": "Kampala",
+    "state": "Central Region",
+    "zip": "",
+    "country": "Uganda"
   },
-  "website": "https://jerimybrown.com",
-  "image": "https://jerimybrown.com/assets/images/about-me-1.png",
+  "website": "https://github.com/MarkColeMukisa",
+  "image": "assets/images/mark-cole-portrait.png",
   "socialLinks": {
-    "linkedin": "https://www.linkedin.com/in/jerimybrown/",
-    "github": "https://github.com/jer1my",
-    "dribbble": "https://dribbble.com/Jerimy",
-    "instagram": "https://www.instagram.com/jerimybrown/"
+    "linkedin": "https://www.linkedin.com/in/mark-cole-mukisa-3247a7334/",
+    "github": "https://github.com/MarkColeMukisa",
+    "twitter": "https://x.com/MarkColeMUKISA",
+    "whatsapp": "https://wa.me/256702262806"
   },
   "skills": [
-    "UX Design",
-    "Product Design",
-    "Design Systems",
-    "AI/ML Design",
-    "User Research",
-    "Front-end Development",
-    "Accessibility",
-    "Design Leadership"
+    "Web Development",
+    "Mobile App Development",
+    "Software Design",
+    "Laravel",
+    "TypeScript",
+    "PHP",
+    "Tailwind CSS",
+    "Management Systems"
   ],
-  "summary": "Full-stack UX leader combining director-level strategy with hands-on design and development expertise. Over 25 years architecting user experiences that bridge business objectives, technical constraints, and emerging AI capabilities. Specializing in transforming complex problems into intuitive solutions—leading teams through platform consolidations, establishing enterprise design systems, and integrating AI features that build progressive user trust. Technical fluency in modern front-end development and deep understanding of ML/AI capabilities enable authentic collaboration across disciplines while driving innovation in human-AI interaction design.",
+  "summary": "Passionate and versatile technology professional specializing in full-stack development. Graduated from Makerere University with a background in Business Computing and Computer Software Engineering. Currently gaining hands-on experience as a Business Computing Intern at Sumic IT Solutions, where I focus on building scalable solutions like payroll and billing systems. I am committed to continuous learning and creating elegant, user-centric software that bridges the gap between complex business requirements and intuitive digital interfaces.",
   "oldPortfolio": {
-    "url": "https://www.jerimy.co/",
-    "description": "Curious about my design evolution? Take a look at life before the flat design movement."
+    "url": "https://github.com/MarkColeMukisa",
+    "description": "Explore my latest code contributions and open-source projects on GitHub."
   }
 }

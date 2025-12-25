@@ -1,0 +1,96 @@
+{
+    "id": "quikie-js-project",
+    "sections": {
+        "overview": {
+            "heading": "Overview",
+            "content": "Quikie Payroll is a smart payroll calculation engine built with JavaScript. It automates the complex task of calculating employee pay, including gross pay, tax deductions, and net salary for businesses."
+        },
+        "challenge": {
+            "heading": "The Challenge",
+            "intro": "The project aimed to solve the complexity of manual payroll processing, which is often slow and prone to human error.",
+            "highlightTitle": "Core Problems",
+            "keyPoints": [
+                "Handling complex tax bands and statutory deductions accurately",
+                "Providing quick computations for large sets of employee data",
+                "Ensuring the calculation logic is easily verifiable and transparent",
+                "Maintaining a lightweight yet performant code structure"
+            ]
+        },
+        "solution": {
+            "heading": "The Solution",
+            "intro": "I focused on building a pure JavaScript engine that handles computations efficiently in the browser, reducing the need for server-side roundtrips for simple calculations.",
+            "approaches": [
+                {
+                    "title": "Modular Logic",
+                    "description": "Separated calculation rules into modular functions for easy maintenance and updates to tax laws."
+                },
+                {
+                    "title": "Real-time Feedback",
+                    "description": "Enabled instant calculation updates as users input employee hours or salary details."
+                }
+            ]
+        },
+        "process": {
+            "heading": "Process",
+            "intro": "The focus was on algorithmic accuracy and creating a distraction-free calculator interface.",
+            "steps": [
+                {
+                    "number": 1,
+                    "title": "Logic Definition",
+                    "description": "Mapping out the payroll rules and tax formulas into computational logic."
+                },
+                {
+                    "number": 2,
+                    "title": "Algorithm Testing",
+                    "description": "Running thousands of test cases to ensure edge cases in pay calculation are handled."
+                },
+                {
+                    "number": 3,
+                    "title": "Minimalist UI",
+                    "description": "Building a simple HTML/CSS interface that focuses entirely on data entry and results."
+                }
+            ]
+        },
+        "results": {
+            "heading": "Results",
+            "intro": "Quikie Payroll demonstrates how clean code can solve significant business process bottlenecks.",
+            "metrics": [
+                {
+                    "value": "99.9%",
+                    "label": "Calculation accuracy against manual benchmarks",
+                    "chartProgress": 99
+                },
+                {
+                    "value": "<1ms",
+                    "label": "Execution time per employee calculation",
+                    "chartProgress": 99
+                }
+            ]
+        }
+    },
+    "sidebar": {
+        "title": "Contents",
+        "sections": [
+            {
+                "id": "overview",
+                "label": "Overview"
+            },
+            {
+                "id": "challenge",
+                "label": "The Challenge"
+            },
+            {
+                "id": "solution",
+                "label": "Solution"
+            },
+            {
+                "id": "process",
+                "label": "Process"
+            },
+            {
+                "id": "results",
+                "label": "Results"
+            }
+        ]
+    }
+}

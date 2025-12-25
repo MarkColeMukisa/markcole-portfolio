@@ -16,14 +16,18 @@ async function initCaseStudyContent() {
     const currentPath = window.location.pathname;
     let caseStudyId = null;
 
-    if (currentPath.includes('design-system')) {
-        caseStudyId = 'design-system';
-    } else if (currentPath.includes('product-suite')) {
-        caseStudyId = 'product-suite';
-    } else if (currentPath.includes('ai-strategy')) {
-        caseStudyId = 'ai-strategy';
-    } else if (currentPath.includes('research-strategy')) {
-        caseStudyId = 'research-strategy';
+    const pathParts = window.location.pathname.split('/');
+    const fileName = pathParts[pathParts.length - 1];
+
+    // Map filename to case study ID
+    if (fileName.includes('mindlyfe')) {
+        caseStudyId = 'mindlyfe-platform';
+    } else if (fileName.includes('moviebox')) {
+        caseStudyId = 'movie-box-app';
+    } else if (fileName.includes('waterbill')) {
+        caseStudyId = 'geta-waterbill-app';
+    } else if (fileName.includes('quikie')) {
+        caseStudyId = 'quikie-js-project';
     }
 
     // Only run on case study pages
@@ -62,7 +66,7 @@ async function initCaseStudyContent() {
 function updatePageMeta(project) {
     if (!project) return;
 
-    const pageTitle = `Building ${project.title.startsWith('a') || project.title.startsWith('an') ? project.title : 'a ' + project.title} - Jerimy Brown`;
+    const pageTitle = `Building ${project.title.startsWith('a') || project.title.startsWith('an') ? project.title : 'a ' + project.title} - Mark Cole Mukisa`;
 
     // Update document title
     document.title = pageTitle;

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +10,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jerimybrown.com/resume.html">
     <meta property="og:title" content="Resume - Jerimy Brown">
-    <meta property="og:description" content="Full-stack UX leader combining director-level strategy with hands-on design and development expertise. Over 25 years architecting user experiences.">
+    <meta property="og:description"
+        content="Full-stack UX leader combining director-level strategy with hands-on design and development expertise. Over 25 years architecting user experiences.">
     <meta property="og:image" content="https://jerimybrown.com/assets/images/preview/resume-preview.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jerimybrown.com/resume.html">
-    <meta property="twitter:title" content="Resume - Jerimy Brown">
-    <meta property="twitter:description" content="Full-stack UX leader combining director-level strategy with hands-on design and development expertise. Over 25 years architecting user experiences.">
-    <meta property="twitter:image" content="https://jerimybrown.com/assets/images/preview/resume-preview.png">
+    <meta property="twitter:url" content="https://github.com/MarkColeMukisa/resume.html">
+    <meta property="twitter:title" content="Resume - Mark Cole Mukisa">
+    <meta property="twitter:description"
+        content="Web Developer, Software Engineer and Mobile App Developer. Building impactful digital experiences with modern technology.">
+    <meta property="twitter:image" content="assets/images/preview/mark-cole-preview.png">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico?v=1" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css?v=1761930258">
     <style>
         /* Resume-specific CSS variables */
@@ -47,6 +51,7 @@
         .nav {
             background: rgba(250, 250, 250, 0.1) !important;
         }
+
         body[data-theme="dark"] .nav {
             background: rgba(23, 23, 23, 0.1) !important;
         }
@@ -257,6 +262,7 @@
 
         /* Responsive */
         @media (max-width: 768px) {
+
             /* Ensure mobile body font for description paragraphs (not subtitle) */
             .header p:not(.subtitle) {
                 font-size: 12px;
@@ -302,10 +308,11 @@
         }
     </style>
 </head>
+
 <body>
     <script>
         // Apply theme immediately to prevent flash
-        (function() {
+        (function () {
             const savedTheme = localStorage.getItem('theme');
             if (savedTheme === 'light') {
                 document.body.removeAttribute('data-theme');
@@ -321,7 +328,7 @@
             <a href="index.html" class="logo">
                 <div class="logo-container">
                     <div class="logo-svg"></div>
-                    <span class="logo-text">Jerimy Brown</span>
+                    <span class="logo-text">Mark Cole Mukisa</span>
                 </div>
             </a>
             <div class="nav-right">
@@ -335,7 +342,9 @@
                 </ul>
                 <button class="nav-theme-toggle" onclick="toggleTheme()">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z" fill="currentColor"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z"
+                            fill="currentColor" />
                     </svg>
                 </button>
             </div>
@@ -354,15 +363,21 @@
         <div class="mobile-menu-content">
             <nav class="mobile-nav">
                 <a href="index.html" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">Home</span></a>
-                <a href="index.html#projects" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">Work</span></a>
-                <a href="index.html#about" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">About</span></a>
-                <a href="index.html#contact" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">Contact</span></a>
+                <a href="index.html#projects" onclick="toggleMobileMenu(event)"><span
+                        class="mobile-link-text">Work</span></a>
+                <a href="index.html#about" onclick="toggleMobileMenu(event)"><span
+                        class="mobile-link-text">About</span></a>
+                <a href="index.html#contact" onclick="toggleMobileMenu(event)"><span
+                        class="mobile-link-text">Contact</span></a>
                 <a href="lab.html" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">Lab</span></a>
-                <a href="resume.html" onclick="toggleMobileMenu(event)" class="active"><span class="mobile-link-text">Resume</span></a>
+                <a href="resume.html" onclick="toggleMobileMenu(event)" class="active"><span
+                        class="mobile-link-text">Resume</span></a>
             </nav>
             <button class="mobile-theme-toggle" onclick="toggleTheme()">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z" fill="currentColor"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z"
+                        fill="currentColor" />
                 </svg>
             </button>
         </div>
@@ -372,15 +387,19 @@
     <div class="container">
         <header class="header">
             <h1 class="title">Resume</h1>
-            <p class="subtitle">Jerimy Brown</p>
+            <p class="subtitle">Mark Cole Mukisa</p>
             <p class="description">
-                4126 Fern Ave, Broomfield, CO 80020 • 720.299.4940 • jerimy@comcast.net<br>
+                Kampala, Uganda • +256 7022 62806 • mcole.mukisa@gmail.com<br>
                 <a href="index.html" class="accent-link">Portfolio</a> •
-                <a href="https://dribbble.com/Jerimy" class="external-link" target="_blank" rel="noopener noreferrer">Dribbble ↗</a> •
-                <a href="https://github.com/jer1my" class="external-link" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="https://www.linkedin.com/in/mark-cole-mukisa-3247a7334/" class="external-link" target="_blank"
+                    rel="noopener noreferrer">LinkedIn ↗</a> •
+                <a href="https://github.com/MarkColeMukisa" class="external-link" target="_blank"
+                    rel="noopener noreferrer">GitHub ↗</a>
             </p>
-            <p style="margin-top: 32px;"><strong>Curious about my design evolution?</strong><br>Take a look at life before the flat design movement.</p>
-            <p>Old Portfolio: <a href="https://www.jerimy.co/" class="external-link" target="_blank" rel="noopener noreferrer">https://www.jerimy.co/ ↗</a></p>
+            <p style="margin-top: 32px;"><strong>Curious about my projects?</strong><br>Take a look at my contributions
+                and repositories on GitHub.</p>
+            <p>GitHub Profile: <a href="https://github.com/MarkColeMukisa" class="external-link" target="_blank"
+                    rel="noopener noreferrer">https://github.com/MarkColeMukisa ↗</a></p>
         </header>
     </div>
 
@@ -389,7 +408,12 @@
         <div class="container">
             <h2 class="resume-section-title">Summary</h2>
             <div class="resume-summary">
-                Full-stack UX leader combining director-level strategy with hands-on design and development expertise. Over 25 years architecting user experiences that bridge business objectives, technical constraints, and emerging AI capabilities. Specializing in transforming complex problems into intuitive solutions—leading teams through platform consolidations, establishing enterprise design systems, and integrating AI features that build progressive user trust. Technical fluency in modern front-end development and deep understanding of ML/AI capabilities enable authentic collaboration across disciplines while driving innovation in human-AI interaction design.
+                Passionate and versatile technology professional specializing in full-stack development. Graduated from
+                Makerere University with a background in Business Computing and Computer Software Engineering. Currently
+                gaining hands-on experience as a Business Computing Intern at Sumic IT Solutions, where I focus on
+                building scalable solutions like payroll and billing systems. I am committed to continuous learning and
+                creating elegant, user-centric software that bridges the gap between complex business requirements and
+                intuitive digital interfaces.
             </div>
         </div>
     </section>
@@ -430,7 +454,7 @@
     <!-- Back to Top Button -->
     <button class="btn-arrow btn-arrow-md btn-arrow-filled back-to-top" onclick="scrollToTop()">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 18L12 6M8 10L12 6L16 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 18L12 6M8 10L12 6L16 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
     </button>
     <!-- Modular JavaScript Architecture -->
@@ -454,4 +478,5 @@
     <script src="assets/js/content/case-study-renderer.js?v=1760886500"></script>
     <script src="assets/js/main.js?v=1760886500"></script>
 </body>
+
 </html>

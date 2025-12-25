@@ -24,16 +24,16 @@ function initScrollAnimations() {
         });
     }, observerOptions);
 
-    // Observe project cards (only on index page)
-    document.querySelectorAll('.project-card').forEach(card => {
-        observer.observe(card);
+    // Observe reveal elements
+    document.querySelectorAll('.reveal-on-scroll, .project-card').forEach(el => {
+        observer.observe(el);
     });
 }
 
 function initSmoothScrolling() {
     // Smooth scroll for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(link => {
-        link.addEventListener('click', function(e) {
+        link.addEventListener('click', function (e) {
             const href = this.getAttribute('href');
 
             // Skip if href is just '#' or empty
@@ -79,7 +79,7 @@ function initPageTransitions() {
             return;
         }
 
-        link.addEventListener('click', function(e) {
+        link.addEventListener('click', function (e) {
             e.preventDefault();
 
             const targetUrl = this.href;

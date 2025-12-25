@@ -1,32 +1,44 @@
 {
   "carouselCards": [
     {
-      "id": "about-design",
-      "dataCard": "about-design",
-      "title": "Hey it's me! &nbsp;&nbsp;👋",
-      "description": "Glad you're here, nice to see you",
-      "backgroundClass": "about-design"
+      "id": "intro",
+      "title": "The Tech Enthusiast",
+      "description": "I'm a dedicated developer based in Uganda, passionate about building digital solutions that make a real difference in how businesses operate.",
+      "image": "assets/images/about/tech-enthusiast.png",
+      "tags": [
+        "Passion",
+        "Innovation"
+      ]
     },
     {
-      "id": "about-background",
-      "dataCard": "about-background",
-      "title": "Hey it's me again! &nbsp;&nbsp;😂",
-      "description": "Last track day at HPR, I got a new personal best of 2 minutes flat. Not bad.",
-      "backgroundClass": "about-background"
+      "id": "education",
+      "title": "Makerere University",
+      "description": "Graduated with a focus on Business Computing and Computer Software Engineering, laying the foundation for my career in technology.",
+      "image": "assets/images/about/makerere.png",
+      "tags": [
+        "Graduation",
+        "Foundation"
+      ]
     },
     {
-      "id": "about-creative",
-      "dataCard": "about-creative",
-      "title": "Something I captured &nbsp;&nbsp;📸",
-      "description": "One of my favorite captures to date, because of the patience it took.",
-      "backgroundClass": "about-creative"
+      "id": "internship",
+      "title": "Sumic IT Solutions",
+      "description": "Currently working as a Business Computing Intern, developing robust systems like payroll and water billing management.",
+      "image": "assets/images/about/sumic.png",
+      "tags": [
+        "Experience",
+        "Growth"
+      ]
     },
     {
-      "id": "about-personal",
-      "dataCard": "about-personal",
-      "title": "Something I'm making &nbsp;&nbsp;🎨",
-      "description": "This is my latest painting. Follow me on other platforms to watch me finish it.",
-      "backgroundClass": "about-personal"
+      "id": "goals",
+      "title": "Future Focus",
+      "description": "My goal is to continue building software that simplifies complex tasks and empowers users through intuitive and efficient design.",
+      "image": "assets/images/about/future.png",
+      "tags": [
+        "Goals",
+        "Impact"
+      ]
     }
   ]
 }

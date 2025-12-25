@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab - Jerimy Brown</title>
+    <title>Lab - Mark Cole Mukisa</title>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jerimybrown.com/lab.html">
-    <meta property="og:title" content="Lab - Jerimy Brown">
-    <meta property="og:description" content="The framework behind this experience - an intentionally minimal design system where every element serves a clear purpose.">
-    <meta property="og:image" content="https://jerimybrown.com/assets/images/preview/home-preview.png">
+    <meta property="og:url" content="https://github.com/MarkColeMukisa/lab.html">
+    <meta property="og:title" content="Lab - Mark Cole Mukisa">
+    <meta property="og:description"
+        content="The framework behind this experience - exploring modern tech and clean code.">
+    <meta property="og:image" content="assets/images/preview/mark-cole-preview.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jerimybrown.com/lab.html">
-    <meta property="twitter:title" content="Lab - Jerimy Brown">
-    <meta property="twitter:description" content="The framework behind this experience - an intentionally minimal design system where every element serves a clear purpose.">
-    <meta property="twitter:image" content="https://jerimybrown.com/assets/images/preview/home-preview.png">
+    <meta property="twitter:url" content="https://github.com/MarkColeMukisa/lab.html">
+    <meta property="twitter:title" content="Lab - Mark Cole Mukisa">
+    <meta property="twitter:description"
+        content="The framework behind this experience - exploring modern tech and clean code.">
+    <meta property="twitter:image" content="assets/images/preview/mark-cole-preview.png">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico?v=1" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css?v=1761930258">
     <style>
         /* Critical inline styles to prevent navigation flash on first load
@@ -30,15 +34,17 @@
         .nav {
             background: rgba(250, 250, 250, 0.1) !important;
         }
+
         body[data-theme="dark"] .nav {
             background: rgba(23, 23, 23, 0.1) !important;
         }
     </style>
 </head>
+
 <body>
     <script>
         // Apply theme immediately to prevent flash
-        (function() {
+        (function () {
             const savedTheme = localStorage.getItem('theme');
             if (savedTheme === 'light') {
                 document.body.removeAttribute('data-theme');
@@ -54,7 +60,7 @@
             <a href="index.html" class="logo">
                 <div class="logo-container">
                     <div class="logo-svg"></div>
-                    <span class="logo-text">Jerimy Brown</span>
+                    <span class="logo-text">Mark Cole Mukisa</span>
                 </div>
             </a>
             <div class="nav-right">
@@ -68,7 +74,9 @@
                 </ul>
                 <button class="nav-theme-toggle" onclick="toggleTheme()">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z" fill="currentColor"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z"
+                            fill="currentColor" />
                     </svg>
                 </button>
             </div>
@@ -87,35 +95,44 @@
         <div class="mobile-menu-content">
             <nav class="mobile-nav">
                 <a href="index.html" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">Home</span></a>
-                <a href="index.html#projects" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">Work</span></a>
-                <a href="index.html#about" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">About</span></a>
-                <a href="index.html#contact" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">Contact</span></a>
-                <a href="lab.html" onclick="toggleMobileMenu(event)" class="active"><span class="mobile-link-text">Lab</span></a>
+                <a href="index.html#projects" onclick="toggleMobileMenu(event)"><span
+                        class="mobile-link-text">Work</span></a>
+                <a href="index.html#about" onclick="toggleMobileMenu(event)"><span
+                        class="mobile-link-text">About</span></a>
+                <a href="index.html#contact" onclick="toggleMobileMenu(event)"><span
+                        class="mobile-link-text">Contact</span></a>
+                <a href="lab.html" onclick="toggleMobileMenu(event)" class="active"><span
+                        class="mobile-link-text">Lab</span></a>
                 <a href="resume.html" onclick="toggleMobileMenu(event)"><span class="mobile-link-text">Resume</span></a>
             </nav>
             <button class="mobile-theme-toggle" onclick="toggleTheme()">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z" fill="currentColor"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z"
+                        fill="currentColor" />
                 </svg>
             </button>
         </div>
     </div>
-    
+
     <div class="container">
         <header class="header">
             <h1 class="title">The Lab</h1>
             <p class="subtitle">The framework behind this experience</p>
-            <p class="description">An intentionally minimal system where every element serves a clear purpose—keeping the focus on the work and user controls.</p>
+            <p class="description">An intentionally minimal system where every element serves a clear purpose—keeping
+                the focus on the work and user controls.</p>
         </header>
-        
+
         <section class="section">
             <h2 class="section-title mb-3" id="userControlsTitle">User Controls</h2>
             <div class="wave-slider-container">
-                <input type="range" id="titleWaveSlider" min="0" max="100" value="0" class="particle-slider wave-slider">
+                <input type="range" id="titleWaveSlider" min="0" max="100" value="0"
+                    class="particle-slider wave-slider">
             </div>
             <div class="user-controls-description-grid">
                 <div class="user-controls-description">
-                    <p class="mb-4">Switch between light and dark themes, reveal the underlying grid structure, or reset gesture hints for carousels on project pages.</p>
+                    <p class="mb-4">Switch between light and dark themes, reveal the underlying grid structure, or reset
+                        gesture hints for carousels on project pages.</p>
                     <p class="accent-text">Your preferences are retained.</p>
                 </div>
                 <div class="user-controls-right">
@@ -124,8 +141,11 @@
                         <div class="control-group control-group-left">
                             <div class="control-label">Theme</div>
                             <button class="nav-theme-toggle" onclick="toggleTheme()" id="styleGuideThemeToggle">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z" fill="currentColor"/>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.98038 2.73135C9.79117 2.67374 9.59078 2.67397 9.40415 2.72944C7.79045 3.18158 6.32264 4.04719 5.14599 5.24078C3.96517 6.4386 3.11882 7.92491 2.69124 9.55165C2.26365 11.1784 2.26977 12.8888 2.70898 14.5124C3.14819 16.136 4.00515 17.6163 5.19451 18.8056C6.38386 19.995 7.86409 20.8519 9.48773 21.2911C11.1114 21.7303 12.8218 21.7364 14.4485 21.3088C16.0752 20.8812 17.5615 20.0348 18.7593 18.854C19.9525 17.6778 20.8179 16.2106 21.2702 14.5976C21.324 14.4177 21.3265 14.2247 21.275 14.041C21.1538 13.6089 20.7597 13.3102 20.311 13.3106C20.2099 13.3107 20.1116 13.326 20.0186 13.3546C18.7246 13.7093 17.3598 13.7164 16.0619 13.3751C14.7554 13.0314 13.5636 12.347 12.6083 11.3918C11.6531 10.4365 10.9686 9.24468 10.625 7.93818C10.2834 6.63949 10.2908 5.27379 10.6461 3.9791C10.6732 3.89024 10.6881 3.79655 10.6893 3.70018C10.6947 3.25564 10.4057 2.86084 9.98038 2.73135ZM6.57028 6.64485C7.11058 6.09677 7.72838 5.63598 8.40126 5.27566C8.32141 6.33717 8.41781 7.40898 8.69079 8.44689C9.12451 10.096 9.98839 11.6003 11.1941 12.806C12.3998 14.0117 13.9041 14.8756 15.5532 15.3093C16.5911 15.5822 17.6629 15.6786 18.7244 15.5988C18.3641 16.2717 17.9033 16.8894 17.3553 17.4297C16.4063 18.3652 15.2288 19.0357 13.9401 19.3745C12.6513 19.7133 11.2963 19.7084 10.01 19.3605C8.72365 19.0125 7.55096 18.3336 6.60871 17.3914C5.66647 16.4492 4.98755 15.2765 4.63959 13.9902C4.29163 12.7039 4.28679 11.3488 4.62553 10.0601C4.96428 8.77132 5.63479 7.59381 6.57028 6.64485Z"
+                                        fill="currentColor" />
                                 </svg>
                             </button>
                         </div>
@@ -147,7 +167,8 @@
                             <div class="grid-opacity-slider-container" id="gridOpacitySliderContainer">
                                 <div class="control-label">Opacity</div>
                                 <div class="slider-with-value">
-                                    <input type="range" id="gridOpacitySlider" min="20" max="100" value="20" step="1" class="particle-slider">
+                                    <input type="range" id="gridOpacitySlider" min="20" max="100" value="20" step="1"
+                                        class="particle-slider">
                                     <span class="slider-value" id="gridOpacityValue">20</span>
                                 </div>
                             </div>
@@ -156,7 +177,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="section">
             <h2 class="section-title">Typography</h2>
 
@@ -166,11 +187,17 @@
                     <div class="type-sample">
                         <div class="type-label">Font Family</div>
                         <div class="font-info">
-                            <p class="mb-4"><strong>IBM Plex Sans</strong> serves as my primary typeface, chosen for its exceptional balance of technical precision and human warmth.</p>
+                            <p class="mb-4"><strong>IBM Plex Sans</strong> serves as my primary typeface, chosen for its
+                                exceptional balance of technical precision and human warmth.</p>
                             <p class="mb-4">Developed by IBM with Mike Abbink and Bold Monday.</p>
-                            <p class="mb-4">This font family embodies good design principles: clarity, functionality, and subtle personality. Its neutral yet distinctive character conveys professionalism while remaining approachable.</p>
+                            <p class="mb-4">This font family embodies good design principles: clarity, functionality,
+                                and subtle personality. Its neutral yet distinctive character conveys professionalism
+                                while remaining approachable.</p>
 
-                            <p class="mb-4"><strong>Ligatures:</strong> IBM Plex Sans includes standard typographic ligatures that improve readability by combining specific character pairs into single glyphs. Ligatures are enabled site-wide using <code>font-variant-ligatures</code> and are particularly noticeable in combinations like fi, fl, ff, ffi, and ffl.</p>
+                            <p class="mb-4"><strong>Ligatures:</strong> IBM Plex Sans includes standard typographic
+                                ligatures that improve readability by combining specific character pairs into single
+                                glyphs. Ligatures are enabled site-wide using <code>font-variant-ligatures</code> and
+                                are particularly noticeable in combinations like fi, fl, ff, ffi, and ffl.</p>
 
                             <div class="ligature-demo">
                                 <div class="ligature-example">
@@ -195,7 +222,8 @@
                                 </div>
                             </div>
 
-                            <p class="mt-6"><a href="https://fonts.google.com/specimen/IBM+Plex+Sans" target="_blank" class="external-link">View on Google Fonts ↗</a></p>
+                            <p class="mt-6"><a href="https://fonts.google.com/specimen/IBM+Plex+Sans" target="_blank"
+                                    class="external-link">View on Google Fonts ↗</a></p>
                         </div>
                     </div>
 
@@ -330,7 +358,9 @@
 
                     <div class="type-sample">
                         <div class="type-label">Body Text</div>
-                        <div class="body-sample">Good design is invisible. It creates an intuitive experience that feels natural and effortless. Every element should serve a purpose, contributing to a cohesive and meaningful user journey.</div>
+                        <div class="body-sample">Good design is invisible. It creates an intuitive experience that feels
+                            natural and effortless. Every element should serve a purpose, contributing to a cohesive and
+                            meaningful user journey.</div>
                         <div class="type-spec">
                             <strong>Usage:</strong> Paragraphs and main content<br>
                             <strong>Size:</strong> 16px (desktop), 12px (mobile)<br>
@@ -352,7 +382,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="section">
             <h2 class="section-title">Colors</h2>
 
@@ -360,12 +390,23 @@
                 <h3 class="text-lg font-weight-500 mb-6">Color Theory & Theming Strategy</h3>
                 <div class="font-description-grid mb-6">
                     <div class="font-description-left">
-                        <p class="mb-4">The accent color system uses temperature-based theming to optimize visual comfort and hierarchy across light and dark modes, grounded in color psychology and perceptual contrast principles.</p>
-                        <p class="mb-4">By inverting color temperature relative to each background, both themes maintain optimal legibility, emotional resonance, and visual balance—ensuring consistent perceptual impact while reducing eye fatigue across different lighting conditions, from bright workspaces to low-light settings.</p>
+                        <p class="mb-4">The accent color system uses temperature-based theming to optimize visual
+                            comfort and hierarchy across light and dark modes, grounded in color psychology and
+                            perceptual contrast principles.</p>
+                        <p class="mb-4">By inverting color temperature relative to each background, both themes maintain
+                            optimal legibility, emotional resonance, and visual balance—ensuring consistent perceptual
+                            impact while reducing eye fatigue across different lighting conditions, from bright
+                            workspaces to low-light settings.</p>
                     </div>
                     <div class="font-description-right">
-                        <p class="mb-4"><strong>Dark Mode(Warm Orange Accents):</strong> Warm orange delivers vibrant contrast against cool dark backgrounds without harsh glare. Longer wavelength colors feel more comfortable in low-light environments, with orange's energetic quality balancing dark mode's tone.</p>
-                        <p class="mb-4"><strong>Light Mode(Cool Blue Accents):</strong> Cool blue provides strong chromatic contrast against warm white backgrounds. Blue's shorter wavelength creates visual recession, reducing eye strain on bright screens while conveying trust and professionalism.</p>
+                        <p class="mb-4"><strong>Dark Mode(Warm Orange Accents):</strong> Warm orange delivers vibrant
+                            contrast against cool dark backgrounds without harsh glare. Longer wavelength colors feel
+                            more comfortable in low-light environments, with orange's energetic quality balancing dark
+                            mode's tone.</p>
+                        <p class="mb-4"><strong>Light Mode(Cool Blue Accents):</strong> Cool blue provides strong
+                            chromatic contrast against warm white backgrounds. Blue's shorter wavelength creates visual
+                            recession, reducing eye strain on bright screens while conveying trust and professionalism.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -394,7 +435,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="color-section">
                     <h3 class="text-lg font-weight-500 mb-6">Accent Colors</h3>
                     <div class="color-grid">
@@ -486,7 +527,7 @@
                 </div>
             </div>
         </section>
-        
+
         <section class="section">
             <h2 class="section-title">Components</h2>
             <div class="component-grid">
@@ -504,29 +545,37 @@
                     <div class="flex-wrap-gap-6">
                         <!-- Down Arrow (Large) -->
                         <button class="btn-arrow btn-arrow-lg">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 6L12 18M8 14L12 18L16 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 6L12 18M8 14L12 18L16 14" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
                             </svg>
                         </button>
 
                         <!-- Up Arrow (Filled) -->
                         <button class="btn-arrow btn-arrow-md btn-arrow-filled">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 18L12 6M8 10L12 6L16 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 18L12 6M8 10L12 6L16 10" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
                             </svg>
                         </button>
 
                         <!-- Left Arrow -->
                         <button class="btn-arrow btn-arrow-md">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18 12L6 12M10 8L6 12L10 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 12L6 12M10 8L6 12L10 16" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
                             </svg>
                         </button>
 
                         <!-- Right Arrow -->
                         <button class="btn-arrow btn-arrow-md">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M6 12L18 12M14 8L18 12L14 16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 12L18 12M14 8L18 12L14 16" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
                             </svg>
                         </button>
                     </div>
@@ -541,8 +590,10 @@
                         <div class="type-label">Interactive Elements</div>
                         <div class="flex-column-gap-6">
                             <a href="#" class="accent-link m-0">Primary underline effect</a>
-                            <a href="https://fonts.google.com/specimen/IBM+Plex+Sans" target="_blank" class="accent-link-arrow m-0">Primary underline with arrow →</a>
-                            <a href="https://fonts.google.com/specimen/IBM+Plex+Sans" target="_blank" class="external-link m-0">External link ↗</a>
+                            <a href="https://fonts.google.com/specimen/IBM+Plex+Sans" target="_blank"
+                                class="accent-link-arrow m-0">Primary underline with arrow →</a>
+                            <a href="https://fonts.google.com/specimen/IBM+Plex+Sans" target="_blank"
+                                class="external-link m-0">External link ↗</a>
                             <label class="particle-control-label remember-me-label interactive-checkbox-label">
                                 <span>Checkbox</span>
                                 <input type="checkbox" id="labCheckbox" class="remember-me-checkbox">
@@ -580,7 +631,8 @@
                                 <span>Slider</span>
                                 <span class="particle-control-value" id="labSliderValue">50</span>
                             </label>
-                            <input type="range" id="labSlider" min="0" max="100" value="50" step="1" class="particle-slider">
+                            <input type="range" id="labSlider" min="0" max="100" value="50" step="1"
+                                class="particle-slider">
                         </div>
                     </div>
                 </div>
@@ -589,42 +641,44 @@
             <div class="mt-12">
                 <div class="type-label">Cards</div>
                 <div class="projects-grid">
-                        <a href="#" class="project-card-link" aria-label="Sample interactive card">
-                            <article class="project-card project-card-featured" data-card="style-guide-sample">
-                                <div class="project-bg-image"></div>
-                                <div class="project-content-overlay">
-                                    <h3 class="project-title">Interactive Card</h3>
-                                    <p class="project-description">Hover over this card to see the glassmorphism effect, sliding blur overlay, and description reveal inspired by modern design systems.</p>
-                                    <span class="project-link-text">Sample Link →</span>
-                                </div>
-                            </article>
-                        </a>
-                        <a href="#" class="project-card-link" aria-label="Sample interactive card">
-                            <article class="project-card project-card-featured" data-card="style-guide-sample">
-                                <div class="project-bg-image"></div>
-                                <div class="project-content-overlay">
-                                    <h3 class="project-title">Interactive Card</h3>
-                                    <p class="project-description">Hover over this card to see the glassmorphism effect, sliding blur overlay, and description reveal inspired by modern design systems.</p>
-                                    <span class="project-link-text">Sample Link →</span>
-                                </div>
-                            </article>
-                        </a>
-                    </div>
+                    <a href="#" class="project-card-link" aria-label="Sample interactive card">
+                        <article class="project-card project-card-featured" data-card="style-guide-sample">
+                            <div class="project-bg-image"></div>
+                            <div class="project-content-overlay">
+                                <h3 class="project-title">Interactive Card</h3>
+                                <p class="project-description">Hover over this card to see the glassmorphism effect,
+                                    sliding blur overlay, and description reveal inspired by modern design systems.</p>
+                                <span class="project-link-text">Sample Link →</span>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#" class="project-card-link" aria-label="Sample interactive card">
+                        <article class="project-card project-card-featured" data-card="style-guide-sample">
+                            <div class="project-bg-image"></div>
+                            <div class="project-content-overlay">
+                                <h3 class="project-title">Interactive Card</h3>
+                                <p class="project-description">Hover over this card to see the glassmorphism effect,
+                                    sliding blur overlay, and description reveal inspired by modern design systems.</p>
+                                <span class="project-link-text">Sample Link →</span>
+                            </div>
+                        </article>
+                    </a>
+                </div>
             </div>
 
             <div class="mt-12">
                 <div class="type-label">Previous and Next</div>
                 <div class="projects-grid">
-                        <a href="#" class="nav-prev-next align-left">
-                            <span class="nav-prev-next-title">Previous Project Title</span>
-                            <span class="nav-prev-next-direction">← PREV</span>
-                        </a>
-                        <a href="#" class="nav-prev-next align-right">
-                            <span class="nav-prev-next-title">Next Project Title</span>
-                            <span class="nav-prev-next-direction">NEXT →</span>
-                        </a>
-                    </div>
+                    <a href="#" class="nav-prev-next align-left">
+                        <span class="nav-prev-next-title">Previous Project Title</span>
+                        <span class="nav-prev-next-direction">← PREV</span>
+                    </a>
+                    <a href="#" class="nav-prev-next align-right">
+                        <span class="nav-prev-next-title">Next Project Title</span>
+                        <span class="nav-prev-next-direction">NEXT →</span>
+                    </a>
                 </div>
+            </div>
         </section>
 
         <section class="section">
@@ -642,7 +696,8 @@
                     <div class="grid-opacity-slider-container" id="gridOpacitySliderContainerLocal">
                         <div class="control-label">Opacity</div>
                         <div class="slider-with-value">
-                            <input type="range" id="gridOpacitySliderLocal" min="20" max="100" value="20" step="1" class="particle-slider">
+                            <input type="range" id="gridOpacitySliderLocal" min="20" max="100" value="20" step="1"
+                                class="particle-slider">
                             <span class="slider-value" id="gridOpacityValueLocal">20</span>
                         </div>
                     </div>
@@ -659,7 +714,7 @@
                 <div class="grid-demo-item">1</div>
             </div>
         </section>
-        
+
         <section class="section">
             <h2 class="section-title">Spacing Scale</h2>
             <div>
@@ -686,7 +741,7 @@
             </div>
         </section>
     </div>
-    
+
     <!-- Grid Lines Overlay -->
     <div class="grid-lines-overlay" id="gridLinesOverlay">
         <div class="grid-lines-container">
@@ -710,9 +765,9 @@
     <!-- Back to Top Button -->
     <button class="btn-arrow btn-arrow-md btn-arrow-filled back-to-top" onclick="scrollToTop()">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 18L12 6M8 10L12 6L16 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 18L12 6M8 10L12 6L16 10" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
-    </button>    
+    </button>
     <!-- Modular JavaScript Architecture -->
     <script src="assets/js/core/config.js?v=1760886500"></script>
     <script src="assets/js/core/data-loader.js?v=1760886500"></script>
@@ -757,7 +812,7 @@
             });
 
             // Connect slider to wave effect
-            titleWaveSlider.addEventListener('input', function() {
+            titleWaveSlider.addEventListener('input', function () {
                 titleWaveEffect.setValue(this.value);
             });
         }
@@ -766,7 +821,7 @@
         const labSlider = document.getElementById('labSlider');
         const labSliderValue = document.getElementById('labSliderValue');
         if (labSlider && labSliderValue) {
-            labSlider.addEventListener('input', function() {
+            labSlider.addEventListener('input', function () {
                 labSliderValue.textContent = this.value;
             });
         }
@@ -794,7 +849,7 @@
             }
 
             options.forEach((option, index) => {
-                option.addEventListener('click', function() {
+                option.addEventListener('click', function () {
                     updatePillPosition(index);
                 });
             });
@@ -859,8 +914,8 @@
 
         // Watch for grid overlay class changes with MutationObserver
         if (gridLinesOverlay) {
-            const observer = new MutationObserver(function(mutations) {
-                mutations.forEach(function(mutation) {
+            const observer = new MutationObserver(function (mutations) {
+                mutations.forEach(function (mutation) {
                     if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
                         updateSliderVisibility();
                         // Update opacity based on new visibility state
@@ -879,7 +934,7 @@
         // Also listen for grid toggle changes as backup
         const gridToggles = document.querySelectorAll('.grid-toggle');
         gridToggles.forEach(toggle => {
-            toggle.addEventListener('click', function() {
+            toggle.addEventListener('click', function () {
                 // Wait for toggle animation to complete
                 setTimeout(updateSliderVisibility, 50);
             });
@@ -887,7 +942,7 @@
 
         // Sync both sliders
         if (gridOpacitySlider) {
-            gridOpacitySlider.addEventListener('input', function() {
+            gridOpacitySlider.addEventListener('input', function () {
                 const value = this.value;
                 gridOpacityValue.textContent = value;
                 if (gridOpacitySliderLocal) gridOpacitySliderLocal.value = value;
@@ -898,7 +953,7 @@
         }
 
         if (gridOpacitySliderLocal) {
-            gridOpacitySliderLocal.addEventListener('input', function() {
+            gridOpacitySliderLocal.addEventListener('input', function () {
                 const value = this.value;
                 gridOpacityValueLocal.textContent = value;
                 if (gridOpacitySlider) gridOpacitySlider.value = value;
@@ -909,4 +964,5 @@
         }
     </script>
 </body>
+
 </html>

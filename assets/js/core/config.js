@@ -15,10 +15,10 @@
 
 // Mapping of project IDs to their featured carousel images
 const PROJECT_FEATURED_IMAGES = {
-    'ai-strategy': ['ai-1', 'ai-2', 'ai-3'],
-    'design-system': ['design-system-featured-1', 'design-system-featured-2', 'design-system-featured-3', 'design-system-featured-4', 'design-system-featured-5', 'design-system-featured-6', 'design-system-featured-7'],
-    'product-suite': ['product-feature-1', 'product-feature-2', 'product-feature-3', 'product-feature-4'],
-    'research-strategy': ['research-1', 'research-2', 'research-3']
+    'mindlyfe-platform': ['mindlyfe-1', 'mindlyfe-2'],
+    'movie-box-app': ['moviebox-1', 'moviebox-2'],
+    'geta-waterbill-app': ['waterbill-1', 'waterbill-2'],
+    'quikie-js-project': ['quikie-1']
 };
 
 // ==========================================
