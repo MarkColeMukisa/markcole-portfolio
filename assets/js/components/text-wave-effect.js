@@ -4,7 +4,7 @@
  *
  * @class TextWaveEffect
  * @version 1.0.0
- * @author Jerimy Brown
+ * @author Mark Cole Mukisa
  *
  * @example
  * const effect = new TextWaveEffect('#myTitle', {

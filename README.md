@@ -1,9 +1,9 @@
-# Jerimy Brown - UX Portfolio
+# Mark Cole Mukisa - Full-stack Developer Portfolio
 
-A modern UX portfolio showcasing design work with sophisticated glassmorphism effects, interactive particle systems, and intelligent temperature-based theming.
+A modern portfolio showcasing full-stack development work with sophisticated glassmorphism effects, interactive particle systems, and intelligent temperature-based theming.
 
 ## 🚀 Live Demo
-[View Portfolio](https://www.jerimybrown.com)
+[View Portfolio](https://markcolemukisa.github.io/markcole-portfolio/)
 
 ## ✨ Features
 
@@ -42,10 +42,10 @@ A modern UX portfolio showcasing design work with sophisticated glassmorphism ef
 ├── lab.html                   # Interactive experiments
 ├── resume.html                # Resume page
 ├── work/                      # Case study pages
-│   ├── design-system.html
-│   ├── product-suite.html
-│   ├── ai-strategy.html
-│   └── research-strategy.html
+│   ├── mindlyfe.html          # MindLyfe Platform
+│   ├── moviebox.html          # MovieBox App
+│   ├── waterbill.html         # Geta WaterBill
+│   └── quikie.html            # Quikie Payroll
 ├── assets/
 │   ├── css/                   # Modular CSS architecture
 │   │   ├── main.css           # Main import file
@@ -67,9 +67,6 @@ A modern UX portfolio showcasing design work with sophisticated glassmorphism ef
 │   └── images/                # Image assets
 ├── data/
 │   └── projects.json          # Project data
-├── .claude/                   # Claude Code configuration
-│   ├── commands/              # Slash commands
-│   └── settings.local.json
 ├── CLAUDE.md                  # Design system docs (AI context)
 └── README.md                  # This file
 ```
@@ -82,6 +79,8 @@ A modern UX portfolio showcasing design work with sophisticated glassmorphism ef
 - **WebGL** - Hardware-accelerated particle effects
 - **Google Fonts** - IBM Plex Sans typography
 - **JSON** - Data-driven project management
+- **Laravel / PHP** - Backend logic for selected projects
+- **Tailwind CSS** - Utility-first styling for specific modules
 
 ## 🚀 Development
 
@@ -106,14 +105,10 @@ CSS and JavaScript files use query parameter versioning:
 Update version numbers in HTML files after making CSS/JS changes to force browser cache refresh.
 
 ### Deployment Workflow
-Slash commands available via Claude Code (`.claude/commands/`):
-
-- **`/status`** - Show git status, current branch, and recent commits
-- **`/quick-commit`** - Quick commit on current branch (no merge, no push)
-- **`/deploy`** - Commit changes, merge to main, push both branches, return to dev
+Currently configured for GitHub Pages deployment.
 
 ### Branch Strategy
-- **`main`** - Production branch (deployed to GitHub Pages)
+- **`main`** - Production branch
 - **`development`** - Active development branch
 
 ## ⚡ Key Components
@@ -167,10 +162,10 @@ See `CLAUDE.md` for detailed technical architecture and best practices.
 ## 🎯 Portfolio Highlights
 
 ### Case Studies
-- **Design System** - Building comprehensive design systems across product suites
-- **Hybrid Product Suite** - End-to-end product ecosystem design
-- **AI Design Strategy** - Integrating AI capabilities into user workflows
-- **Research Strategy** - User research and interaction pattern validation
+- **MindLyfe Platform** - Comprehensive well-being ecosystem for web and mobile.
+- **MovieBox App** - Modern movie management system built with Laravel.
+- **Geta WaterBill** - Specialized utility management for property managers.
+- **Quikie Payroll** - Smart payroll calculation engine with automated logic.
 
 ### Interactive Features
 - **Lab Page** - Experimental UI patterns and visual demonstrations
@@ -245,9 +240,8 @@ This style guide embodies:
 ## 🔄 Git Workflow
 
 Built with a branch-based workflow:
-- **`main`** - Production-ready code (deployed to GitHub Pages)
+- **`main`** - Production-ready code
 - **`development`** - Active development branch
-- **Slash Commands** - Use `/deploy`, `/quick-commit`, `/status` for streamlined git operations
 
 ## 📄 License
 
@@ -266,7 +260,7 @@ See the [LICENSE](LICENSE) file for complete details.
 This is a personal portfolio project. While the code is open source under MIT, please note:
 - **Code improvements and bug fixes** are welcome via pull requests
 - **Portfolio content** (case studies, designs, images) is not open for contribution
-- Issues and feature suggestions are appreciated on the [issues page](https://github.com/jer1my/jerimybrown-2025/issues)
+- Issues and feature suggestions are appreciated on the [issues page](https://github.com/MarkColeMukisa/markcole-portfolio/issues)
 
 ## 🙏 Acknowledgments
 
@@ -277,6 +271,6 @@ This is a personal portfolio project. While the code is open source under MIT, p
 
 ---
 
-**Built with ❤️ for the design community**
+**Built with ❤️ by Mark Cole Mukisa**
 
-*Portfolio showcasing modern UX design work with sophisticated interactive features and glassmorphism effects.*
+*Portfolio showcasing modern full-stack development work with sophisticated interactive features and glassmorphism effects.*

@@ -57,7 +57,7 @@ function initProjectPageContent() {
         // Also update browser title if needed
         const titleTag = document.querySelector('title');
         if (titleTag && titleTag.textContent.includes('-')) {
-            titleTag.textContent = `${project.title} - Jerimy Brown`;
+            titleTag.textContent = `${project.title} - Mark Cole Mukisa`;
         }
     }
 }
